@@ -1,0 +1,5 @@
+title: Blog
+nav:
+- index.md
+- ...
+- Tags: tags.md

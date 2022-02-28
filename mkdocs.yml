@@ -1,0 +1,138 @@
+site_name: Madson Dias
+site_url: https://omadson.github.io/
+site_author: Madson Dias
+site_description: >-
+  My stuff.
+
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+  - mkdocs-jupyter
+  - bibtex:
+      bib_file: "refs.bib"
+  - blogging:
+      theme:
+        name: button
+        options: # Optional
+          # `true` if display the button as plain text
+          # `false` or not present if display as rectangle button
+          - plain_button: true
+          # Replacement for 'Continue Reading'
+          - label: Read
+      dirs:
+        - blog/2021
+        - blog/2022
+      features:
+        tags:
+          index_page: blog/tags.md
+          insert: bottom
+      time_format: '%d/%m/%Y'
+      template: 'overrides/blog/blog-override.html'
+repo_name: ""
+repo_url: https://github.com/omadson/
+edit_uri: ""
+
+# Copyright
+copyright: |
+  &copy; Madson Dias
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: material/code-greater-than
+    repo: fontawesome/brands/github
+    note: fontawesome/solid/sticky-note
+    abstract: fontawesome/solid/book
+    info: fontawesome/solid/info-circle
+    tip: fontawesome/solid/bullhorn
+    success: fontawesome/solid/check
+    question: fontawesome/solid/question-circle
+    warning: fontawesome/solid/exclamation-triangle
+    failure: fontawesome/solid/bomb
+    danger: fontawesome/solid/skull
+    bug: fontawesome/solid/robot
+    example: fontawesome/solid/flask
+    quote: fontawesome/solid/quote-left
+  language: en
+  palette:
+    - scheme: default
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.indexes
+
+extra:
+  #
+  # The social setting is from MkDocs Materials and allows you to define icons and a URL that would be displayed
+  # in the footer of the page.
+  #
+  # The icon can be any SVG icon shiped by MkDocs Material (Font Awesome, Material Design Icons or GitHub Octicons)
+  #
+  # Read More:
+  # - https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
+  #
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/omadson'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/omadson'
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/in/omadson/'
+    - icon: 'fontawesome/brands/researchgate'
+      link: 'http://bit.ly/researchgate-omadson'
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.arithmatex
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_javascript:
+  - js/mathjax.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js
+  - js/tablesort.js

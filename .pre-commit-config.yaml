@@ -1,0 +1,25 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+      - id: check-ast
+      - id: check-byte-order-marker
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-toml
+      - id: debug-statements
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+      - id: check-added-large-files
+-   repo: https://github.com/compilerla/conventional-pre-commit
+    rev: 'v1.2.0'
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
+-   repo: https://github.com/GussSoares/create-requirements
+    rev: 'v0.1.0'
+    hooks:
+      - id: create-requirements
