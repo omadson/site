@@ -1,9 +1,9 @@
 site_name: Madson Dias
-site_url: https://omadson.github.io/
+site_url: https://omadson.github.io/site/
 site_author: Madson Dias
 site_description: >-
   My stuff.
-
+site_author: Madson Dias
 
 # Plugins
 plugins:
@@ -32,8 +32,8 @@ plugins:
           insert: bottom
       time_format: '%d/%m/%Y'
       template: 'overrides/blog/blog-override.html'
-repo_name: ""
-repo_url: https://github.com/omadson/
+repo_name: omadson/site
+repo_url: https://github.com/omadson/site
 edit_uri: ""
 
 # Copyright
@@ -46,7 +46,7 @@ theme:
   custom_dir: overrides
   icon:
     logo: material/code-greater-than
-    repo: fontawesome/brands/github
+    repo: octicons/repo-24
     note: fontawesome/solid/sticky-note
     abstract: fontawesome/solid/book
     info: fontawesome/solid/info-circle

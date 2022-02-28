@@ -1,6 +1,6 @@
 # Doações
 
-se se interessar por algo, pode me contactar através dos links de contato no final da página. dependendo do quanto você queira, eu posso te dar o ítem (claro que toda a logística para entrega fica por sua conta);
+Se se interessar por algo, pode me contactar através dos links de contato no final da página. dependendo do quanto você queira, eu posso te dar o ítem (claro que toda a logística para entrega fica por sua conta);
 
 ## :fontawesome-solid-book: Livros
 
