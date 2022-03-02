@@ -33,7 +33,7 @@ pip3 install stravalib
 
 Com o terminal aberto, entre no python3 e digite o seguinte código:
 
-```py
+```Python
 from stravalib.client import Client
 
 
@@ -55,7 +55,7 @@ Copie a URL e cole no console. Você deve autorizar a aplicação. Depois disso,
 
 Depois de autorizado, utilize o seguinte código para capturar as atividades do dia atual:
 
-```py
+```Python
 from datetime import datetime
 from stravalib import Client
 
@@ -66,8 +66,8 @@ access_token = client.exchange_code_for_token(
     client_secret=CLIENT_SECRET,
     code=CODE
 )
-
-for activity in client.get_activities(after=datetime(2019, 1, 29),  limit=5):
+activities = client.get_activities(after=datetime(2019, 1, 29),  limit=5)
+for activity in activities:
     print(
         activity.name,
         activity.moving_time,
