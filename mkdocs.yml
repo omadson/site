@@ -84,15 +84,6 @@ theme:
     - navigation.indexes
 
 extra:
-  #
-  # The social setting is from MkDocs Materials and allows you to define icons and a URL that would be displayed
-  # in the footer of the page.
-  #
-  # The icon can be any SVG icon shiped by MkDocs Material (Font Awesome, Material Design Icons or GitHub Octicons)
-  #
-  # Read More:
-  # - https://squidfunk.github.io/mkdocs-material/setup/adding-social-links/
-  #
   social:
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/omadson'
@@ -104,17 +95,25 @@ extra:
       link: 'http://bit.ly/researchgate-omadson'
 
 markdown_extensions:
+  - abbr
   - attr_list
   - md_in_html
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        # Mermaid diagrams
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - footnotes
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
+      linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.tabbed:
@@ -131,8 +130,9 @@ markdown_extensions:
 
 extra_javascript:
   - js/mathjax.js
+  - js/tablesort.js
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.number.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js
-  - js/tablesort.js
+  - https://unpkg.com/mermaid@8.8.4/dist/mermaid.min.js
