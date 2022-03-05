@@ -1,0 +1,11 @@
+
+# Sobre
+
+Eu me chamo **Madson Dias**, moro em Fortaleza, Ceará, Brazil. Tenho **mestrado** (2017) em **Ciência da Computação** pelo **Instituto Federal do Ceará** (IFCE). Atualmente estou **cursando doutorado** também em **Ciência da Computação** na **Universidade Federal do Ceará** (UFC). Participo do grupo de pesquisa de **Lógica e Inteligência Artificial** (LogIA) da UFC, no departamento de computação. Lá, trabalho sobre supervisão do professor [César Lincoln Cavalcante Mattos](https://scholar.google.com/citations?user=DCKOV4oAAAAJ&hl=en&oi=ao).
+
+- :fontawesome-regular-note-sticky: Artigo mais recente: [Anomaly Detection in Trajectory Data with Normalizing Flows](https://arxiv.org/abs/2004.05958)
+- :fontawesome-regular-circle-question: [Me pergunte](https://github.com/omadson/omadson/issues/new/choose) sobre **Python**, **ciência de dados**, e **aprendizado de máquina**
+- :fontawesome-solid-heart: Coisas que eu gosto: [cicicletas](http://bit.ly/strava-omadson), [fotografia](http://bit.ly/photos-omadson), [café](https://www.instagram.com/omadson/channel/) and [leitura](https://www.skoob.com.br/usuario/3962191)
+- :material-eye-settings: Fato engraçado: Eu tenho **daltonismo** e **heterocromia**
+
+[![Linkedin URL](https://img.shields.io/static/v1?message=omadson&label=&nbsp;&color=blue&style=flat-square&logo=linkedin&labelColor=blue&logoColor=white)](https://www.linkedin.com/in/omadson/) [![Twitter URL](https://bit.ly/3lmrONX)](http://bit.ly/twitter-omadson) [![Researchgate URL](https://img.shields.io/static/v1?message=Madson%20Dias&label=&nbsp;&color=888&style=flat-square&logo=researchgate&labelColor=888&logoColor=white)](http://bit.ly/researchgate-omadson) [![Scholar URL](https://img.shields.io/static/v1?message=Madson%20Dias&label=&nbsp;&color=4285F4&style=flat-square&logo=google-scholar&labelColor=4285F4&logoColor=white)](http://bit.ly/scholar-omadson) [![Gmail URL](https://bit.ly/3jk9tPF)](mailto:madsonddias@gmail.com?subject=Github%20contact&body=Greetings%2C%0D%0A%0D%0AI%20found%20your%20profile%20on%20Github.%20My%20name%20is%20so-and-so%20and%20I%20would%20like%20to%20talk%20about%20...%0D%0A ) [![Instagram URL](https://img.shields.io/static/v1?message=@omadson&label=&nbsp;&color=c13584&style=flat-square&logo=instagram&labelColor=c13584&logoColor=white)](https://instagram.com/omadson/)
