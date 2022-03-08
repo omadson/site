@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://omadson.github.io/site/blog/2022/flowgmm/</loc>
+         <lastmod>2022-03-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://omadson.github.io/site/blog/2022/managing-messes-in-computational-notebooks/</loc>
          <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
