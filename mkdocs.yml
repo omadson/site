@@ -90,7 +90,8 @@ plugins:
           insert: bottom
       time_format: '%d/%m/%Y'
       template: 'overrides/blog/blog-override.html'
-
+  - table-reader:
+      data_path: "tables"
 markdown_extensions:
   - abbr
   - attr_list
