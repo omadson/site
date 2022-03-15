@@ -5,3 +5,7 @@
  .md-typeset table:not([class]) {
      display: table;
  }
+
+ .md-typeset table:not([class]) td {
+    vertical-align: middle;
+}
