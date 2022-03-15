@@ -9,7 +9,9 @@
       <aside class="mdx-author">
         <p>
           <span>
-            <strong>{{ page.meta["author"] if "author" in page.meta else "Madson Dias" }}</strong> · 
+            <strong>
+              <a href="../sobre/">{{ page.meta["author"] if "author" in page.meta else "Madson Dias" }}</a>
+            </strong> ·
             <span class="twemoji">
               {% include "icons/calendar.svg" %}
             </span>
