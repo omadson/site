@@ -36,3 +36,4 @@
 "[NFAD: fixing anomaly detection using normalizing flows](https://arxiv.org/pdf/1912.09323.pdf){target=_blank}",2021,":fontawesome-solid-note-sticky:"
 "[Principal Manifold Flows](https://arxiv.org/pdf/2202.07037.pdf){target=_blank}",2022,":fontawesome-solid-note-sticky:"
 "[PAC Guarantees and Effective Algorithms for Detecting Novel Categories](https://www.jmlr.org/papers/volume23/21-0451/21-0451.pdf){target=_blank}",2022,":fontawesome-solid-note-sticky:"
+"[Reward Once, Penalize Once: Rectifying Time Series Anomaly Detection](https://arxiv.org/pdf/2203.05167.pdf){target=_blank}",2022,"[:fontawesome-solid-note-sticky:](../../blog/2022/doshi2022/)"
