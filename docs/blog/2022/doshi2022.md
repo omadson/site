@@ -71,4 +71,4 @@ em que $\alpha$ denota o valor normalizado da média de atraso de detecção (_n
  - _Mars Science Laboratory rover_ (MSL) e  _Soil Moisture Active Passive satellite_ (SMAP): conjuntos de dados da NASA de telemetria e e anomalias. 55 e 25 dimensões, respectivamente. Na sua maioria os dados são categóricos. Somente os dados de telemetria foram utilizados.
  - SWaT: coletado em uma industria. As variáveis são coletadas de uma estação de tratamento de esgoto. O conjunto de dados foi coletado em uma semana e consiste em 51 dimensões, em que as anomalias foram causadas por um ataque cibernético.
 
- Cada conjunto de dados inclui subconjuntos de treino, validação e teste. Anomalias são somente rotuladas no conjunto de teste.
+ Cada conjunto de dados inclui subconjuntos de treino, validação e teste. Anomalias são somente rotuladas no conjunto de teste. -->
