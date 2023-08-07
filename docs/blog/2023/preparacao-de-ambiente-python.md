@@ -1,4 +1,4 @@
-# Preparação do ambiente
+# Preparação de um ambiente de desenvolvimento Python
 
 ## Introdução
 
