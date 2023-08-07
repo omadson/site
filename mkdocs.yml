@@ -84,6 +84,7 @@ plugins:
       dirs:
         - blog/2021
         - blog/2022
+        - blog/2023
       features:
         tags:
           index_page: blog/tags.md
